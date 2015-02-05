@@ -111,6 +111,7 @@
                 <xpath expr="//field[@name='theoritical_amount']" position="replace">
                 </xpath>
                 <xpath expr="//field[@name='percentage']" position="replace">
+                	<field name="revenue"/>
                 </xpath>
                 
                 
