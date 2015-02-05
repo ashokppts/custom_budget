@@ -96,6 +96,11 @@
                 </xpath>
                 <xpath expr="//field[@name='paid_date']" position="replace">
                 </xpath>
+                <xpath expr="//field[@name='date_from']" position="replace">
+                </xpath>
+                <xpath expr="//field[@name='date_to']" position="replace">
+ 	               <field name="period_id"/>
+                </xpath>
                 <xpath expr="//field[@name='ifrs_lines_id']" position="before">
                 <field name="crossovered_budget_id"/>
                 </xpath>
@@ -107,6 +112,8 @@
                 </xpath>
                 <xpath expr="//field[@name='percentage']" position="replace">
                 </xpath>
+                
+                
              </field>
         </record>
         
